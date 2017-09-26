@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
 
-module.exports.toBigNumber = (number) => {
+export function toBigNumber(number) {
     return new BigNumber(number)
-}
+};
