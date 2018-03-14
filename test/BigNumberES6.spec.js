@@ -10,6 +10,7 @@ describe('ES6 Test', () => {
             let expectedBigNumber = {s: 1, e: 1, c: [ 10 ] }
 
             expect(bigNumber).to.be.deep.include(expectedBigNumber)
+            console.log('TESTE OK')
         });
     });
 });
